@@ -1,9 +1,17 @@
-import React from 'react'
+/** @format */
+
+import "./App.css";
+
+import React from "react";
+import Layuot from "./components/Layout/Layuot";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="one">
+      <Layuot />
+    </div>
+  );
+};
 
-export default App
+export default App;

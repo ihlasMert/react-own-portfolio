@@ -1,0 +1,76 @@
+/** @format */
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin: 4%;
+  flex-direction: row;
+  height: 530px;
+  width: 950px;
+  margin: 30px;
+  position: relative;
+  left: 20%;
+  top: 50px;
+}
+.logo {
+  top: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.left {
+  position: relative;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 450px;
+  height: 100px;
+  border: 30px;
+  top: 40%;
+  font-size: 30px;
+  border: none;
+}
+.right {
+  width: 350px;
+  height: 500px;
+}
+.right > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: fill;
+}
+.btns {
+  display: flex;
+  margin: 1px;
+}
+.hire-me {
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: #f94a29;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem auto;
+}
+.contact {
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: #e90064;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem auto;
+}
+.text {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  height: fit-content;
+  font-family: cursive;
+  width: 100%;
+}
